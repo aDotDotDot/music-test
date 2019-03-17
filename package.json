@@ -1,0 +1,21 @@
+{
+  "name": "discord-bot",
+  "version": "0.0.1",
+  "description": "Discord bot",
+  "main": "music.js",
+  "author": "DotDotDot",
+  "scripts": {
+    "start": "node music.js"
+  },
+  "dependencies": {
+    "discord.js": "^11.3.2",
+    "fluent-ffmpeg": "^2.1.2",
+    "moment": "^2.22.2",
+    "node-opus": "^0.3.0",
+    "sequelize": "^4.42.0",
+    "sequelize-cli": "^5.4.0",
+    "sqlite3": "^4.0.6",
+    "winston": "^2.4.2",
+    "ytdl-core": "^0.20.4"
+  }
+}
